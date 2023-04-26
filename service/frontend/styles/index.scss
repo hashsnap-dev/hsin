@@ -1,0 +1,33 @@
+@import './fonts.scss';
+@import './utilities.scss';
+@import './common.scss';
+
+body,
+button {
+  color: #2c2f31;
+}
+a {
+  display: block;
+}
+input::-ms-clear {
+  display: none;
+}
+.custom__value-container {
+  display: flex;
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+@media screen and (max-width: 500px) {
+  .desktop {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .mobile {
+    display: none !important;
+  }
+}

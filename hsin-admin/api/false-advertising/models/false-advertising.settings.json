@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "false_advertisings",
+  "info": {
+    "name": "riskinformation-false-advertising",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "exposed_case",
+        "report"
+      ]
+    },
+    "views": {
+      "type": "integer",
+      "default": 0
+    },
+    "files": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

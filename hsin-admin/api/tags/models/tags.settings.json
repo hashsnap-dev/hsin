@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "name": "tags",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "information_posts": {
+      "via": "tags",
+      "collection": "information-post"
+    },
+    "description": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

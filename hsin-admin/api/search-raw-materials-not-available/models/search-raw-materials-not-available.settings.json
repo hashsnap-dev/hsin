@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "search_raw_materials_not_availables",
+  "info": {
+    "name": "search-raw-materials-not-available",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

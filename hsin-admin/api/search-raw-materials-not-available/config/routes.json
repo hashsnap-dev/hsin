@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/search-raw-materials-not-availables",
+      "handler": "search-raw-materials-not-available.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/search-raw-materials-not-availables/count",
+      "handler": "search-raw-materials-not-available.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/search-raw-materials-not-availables/:id",
+      "handler": "search-raw-materials-not-available.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/search-raw-materials-not-availables",
+      "handler": "search-raw-materials-not-available.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/search-raw-materials-not-availables/:id",
+      "handler": "search-raw-materials-not-available.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/search-raw-materials-not-availables/:id",
+      "handler": "search-raw-materials-not-available.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

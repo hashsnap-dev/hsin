@@ -1,0 +1,44 @@
+{
+  "name": "hsin-macro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "food": "ts-node src/food.ts",
+    "food-t": "ts-node src/food-t.ts",
+    "food-t-all": "ts-node src/food-t-all.ts",
+    "food-sync": "ts-node src/food-sync.ts",
+    "food-manual": "ts-node src/food-manual.ts",
+    "export-food": "ts-node src/export-food.ts",
+    "eat-together": "ts-node src/eat-together.ts",
+    "kcal": "ts-node src/kcal.ts",
+    "mats": "ts-node src/mats.ts",
+    "func": "ts-node src/func.ts",
+    "stop": "ts-node src/stop.ts",
+    "warns": "ts-node src/warns.ts",
+    "start": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }, 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "@types/node-xlsx": "^0.15.2",
+    "@types/qs": "^6.9.7",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@types/progress": "^2.0.5",
+    "cheerio": "^1.0.0-rc.10",
+    "form-data": "^4.0.0",
+    "got": "^11.8.2",
+    "hsin": "file:../@types/hsin",
+    "mongodb": "^4.1.2",
+    "node-xlsx": "^0.17.1",
+    "progress": "^2.0.3",
+    "qs": "^6.10.1",
+    "xlsx-populate": "^1.21.0"
+  }
+}

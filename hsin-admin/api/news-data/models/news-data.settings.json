@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_data",
+  "info": {
+    "name": "hsin-news",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "views": {
+      "type": "integer",
+      "default": 0
+    },
+    "tags": {
+      "type": "string"
+    },
+    "files": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

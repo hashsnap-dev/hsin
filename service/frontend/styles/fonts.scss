@@ -1,0 +1,108 @@
+// @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2)
+      format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff)
+      format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf)
+      format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2)
+      format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff)
+      format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf)
+      format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2)
+      format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff)
+      format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf)
+      format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2)
+      format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff)
+      format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf)
+      format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2)
+      format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff)
+      format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf)
+      format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2)
+      format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff)
+      format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf)
+      format('opentype');
+}
+
+// @font-face {
+//   font-family: 'NanumSquare';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url(/fonts/NanumSquare/NanumSquareR.otf);
+// }
+@font-face {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/NanumSquare/NanumSquareB.otf) format('opentype'),
+    url(/fonts/NanumSquare/NanumSquareB.eot) format('eot');
+}
+@font-face {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 800;
+  src: url(/fonts/NanumSquare/NanumSquareEB.otf) format('opentype'),
+    url(/fonts/NanumSquare/NanumSquareEB.eot) format('eot');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url(/fonts/Poppins/Poppins-Medium.otf);
+}
+.font-nanumsquare {
+  font-family: 'NanumSquare', sans-serif;
+}
+.font-notosans {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.font-default-size {
+  font-size: 16px;
+}

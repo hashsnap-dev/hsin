@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/false-advertisings",
+      "handler": "false-advertising.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/false-advertisings/count",
+      "handler": "false-advertising.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/false-advertisings/:id",
+      "handler": "false-advertising.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/false-advertisings",
+      "handler": "false-advertising.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/false-advertisings/:id",
+      "handler": "false-advertising.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/false-advertisings/:id",
+      "handler": "false-advertising.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

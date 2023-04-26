@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notices",
+  "info": {
+    "name": "hsin-notices",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "notice": {
+      "type": "boolean",
+      "default": false
+    },
+    "views": {
+      "type": "integer",
+      "default": 0
+    },
+    "author": {
+      "type": "string"
+    },
+    "files": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@mixin createStyleByMap($prefix, $property, $map) {
+  @each $key, $value in $map {
+    .#{$prefix}-#{$key} {
+      #{$property}: $value;
+    }
+  }
+  
+}
+
+$font-sizes: (
+  19px: 19px,
+);
+
+$width: (
+  1250px: 1250px,
+);
+
+$min-width: (
+  
+);
+
+$max-width: (
+  
+);
+
+$height: (
+  60px: 60px,
+);
+
+
+@include createStyleByMap('fs', font-size, $font-sizes);
+@include createStyleByMap('min-w', min-width, $min-width);
+@include createStyleByMap('max-w', max-width, $max-width);
+@include createStyleByMap('w', width, $width);
+@include createStyleByMap('h', height, $height);
